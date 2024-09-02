@@ -1,0 +1,43 @@
+{
+  "name": "main",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:css": "stylelint 'styles/**/*.css'"
+  },
+  "dependencies": {
+    "@next-auth/mongodb-adapter": "^1.1.3",
+    "axios": "^1.7.4",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "crypto": "^1.0.1",
+    "easing": "^1.2.1",
+    "fontawesome": "^5.6.3",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "googleapis": "^142.0.0",
+    "jquery": "^3.7.1",
+    "js-cookie": "^3.0.5",
+    "mongodb": "^5.9.2",
+    "mongoose": "^8.5.3",
+    "next": "14.2.5",
+    "next-auth": "^4.24.7",
+    "nodemailer": "^6.9.14",
+    "nprogress": "^0.2.0",
+    "owl.carousel": "^2.3.4",
+    "owlcarousel": "^1.3.3",
+    "path": "^0.12.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-quill": "^2.0.0",
+    "wow": "^0.0.6"
+  },
+  "devDependencies": {
+    "stylelint": "^16.9.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
